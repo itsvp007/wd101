@@ -61,7 +61,7 @@ const saveUserForm = (event) => {
 
     if (!isValid(age)) {
         document.getElementById("dob").style = "border: 2px solid red;"
-        return alert("You must be between age 18 and 55.\nYou are not elligible!");
+      
     } else {
         document.getElementById("dob").style = "border: 2px solid #cccc;"
         let entry = {
